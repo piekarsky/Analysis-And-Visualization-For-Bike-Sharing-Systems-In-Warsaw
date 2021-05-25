@@ -71,7 +71,7 @@ The occurrence of outliers for particular days was checked using a box plot. It 
 
 On the chart above, it can be seen that one station on March 14 and March 25 recorded a much larger number of bike rentals compared to all other stations on that day.
 
-Due to the large variety of locations of bike stations and the fact that they can be very popular in the event of major sports or music events, these values do not have to mean a data collection error. The popularity of the station was assessed on the basis of the median, which is not sensitive to outliers, so extreme points were not removed
+Due to the large variety of locations of bike stations and the fact that they can be very popular in the event of major sports or music events, these values do not have to mean a data collection error. The popularity of the station was assessed on the basis of the median, which is not sensitive to outliers, so extreme points were not removed.
 
 
 </br>
@@ -95,7 +95,7 @@ After adding up the number of bikes rented at all stations throughout the datase
 
 The analysis and visualization of this data uses the folium library, thanks to which it was created a map containing interactive markers that automatically group the number of stations on the map. Tags are grouped with locations if they are close enough to each other.
 
-The picture below shows the map of Warsaw with the location of <b>380</b> bike stations using interactive grouping
+The picture below shows the map of Warsaw with the location of <b>380</b> bike stations using interactive grouping.
 
 <img width="600" height="350" src = img/warsaw_map.png/>
 
